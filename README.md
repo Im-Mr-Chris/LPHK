@@ -1,21 +1,6 @@
 # LPHK (LaunchPad HotKey)
 A Novation Launchpad macro scripting system.
 
-<a href="https://github.com/nimaid/LPHK"><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/LPHK.png" alt="logo" height="300px" hspace="5"/></a><a href="https://discord.gg/mDCzB8X"><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/discord.png" alt="logo" height="300px" hspace="5"/></a><a href="https://www.patreon.com/user?u=16848673"><img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/patreon.png" alt="logo" height="300px" hspace="5"/></a>
-<img src="https://raw.githubusercontent.com/nimaid/LPHK/master/README_FILES/LPHK_update_3.png" alt="Update 3" width="800px" />
-
-[Video Tutorial, Updates, and Plans](https://www.youtube.com/watch?v=XdJutWBEAqI)
-
-[First Look](https://www.youtube.com/watch?v=zZPt_lknhks)
-
-[Scheduling System](https://www.youtube.com/watch?v=rv2YmPQvMr0&t=164s)
-
-[Hackaday Early Writeup](https://hackaday.com/2018/11/04/launchpad-midi-controller-put-to-work-with-python/)
-
-[DOOM on a Launchpad](https://www.youtube.com/watch?v=4o_fh3n8FME)
-
-[Mouse Commands Demo - Maze](https://www.youtube.com/watch?v=w1YGSpT6aI8)
-
 ## What does it do?
 The goal of this project is to implement a macro scripting system for the Novation Launchpad, in order to use the launchpad as a scriptable, general purpose macro keyboard.
 
@@ -49,10 +34,6 @@ Because it could be immensely useful for a wide variety of tasks, such as:
   * Debugger
 * ... and many more!
 
-## Does it work yet?
-Yes! It does not have all the features I want just yet, and still has bugs, but it works! You can use the GUI to load/save layouts and edit button scripts/colors. It's not nearly as polished as I want yet, but it is functional!
-
-This is still WIP and still a beta version. See below for a todo list. I have a life (a crazy one at that), so no promises on a delivery date. Feel free to offer your help! You can see project updates and ask questions on the [official Discord server](https://discord.gg/mDCzB8X)! You can also donate on the [official Patreon page](https://www.patreon.com/user?u=16848673) to help speed up development, or just say thanks!
 
 ## How do I use it?
 Before using the program, there are some dependencies/libraries that you will need to install:
@@ -98,8 +79,6 @@ Before using the program, there are some dependencies/libraries that you will ne
         * If the second button is already bound, you will get a dialog box with options.
 * Go to `Layout > Save layout as...` to save your current layout for future use, colors and all.
 * Go to `Layout > Load layout...` to load an existing layout. Examples are in `user_layouts/examples/`.
-
-#### The whole GUI is still rough around the edges, so don't be too supprised if something breaks. If it does, kindly open a detailed issue on GitHub so I can fix the error. :) And don't feel shy making feature requests, either!
 
 ## What is LPHKscript?
 LPHKscript is a simple macro scripting language tailor made for LPHK. Syntax is closer to a shell/batch script than, say, JavaScript.
@@ -358,5 +337,3 @@ For all commands, the arguments cannot contain the following strings, as they ar
 * ~~Add `RELEASE_ALL` command~~
 * ~~Add `RESET_REPEATS` command to reset the counter on all repeats~~
 * ~~Basic support for Launchpad Classic/S/Mini~~
-  * Thanks to Patreon patron Korbinian Maag for fully funding the purchase of a LP Mini for developing this feature!
-  * Includes Behringer CMD Touch TC64 in Novation compatability mode
