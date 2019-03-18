@@ -307,7 +307,7 @@ For all commands, the arguments cannot contain the following strings, as they ar
 * ~~Add launchpad connection status indicator/remove popups~~
 * ~~Add commenting script lines~~
 * ~~Make pressing a running/queued button cancel/terminate execution~~
-* ~~Make queued/playing buttons blink instead of be solid~~ (Big shout out to FMMT666 for [adding the features I needed to launchpad.py](https://github.com/FMMT666/launchpad.py/issues/31)!)
+* ~~Make queued/playing buttons blink instead of be solid~~ 
 * ~~Make user defined colors RGB~~
 * ~~Add RGB color selector~~
 * ~~Add `LABEL` command~~
@@ -337,3 +337,5 @@ For all commands, the arguments cannot contain the following strings, as they ar
 * ~~Add `RELEASE_ALL` command~~
 * ~~Add `RESET_REPEATS` command to reset the counter on all repeats~~
 * ~~Basic support for Launchpad Classic/S/Mini~~
+
+Original credit goes to this badass: https://github.com/nimaid/LPHK
